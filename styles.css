@@ -1,1 +1,23 @@
-
+#ar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 6vh;
+}
+#controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space evenly;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+.control-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: firebrick;
+  border-radius: 10px;
+  border: none;
+}
